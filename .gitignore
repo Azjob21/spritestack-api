@@ -1,18 +1,13 @@
 # API .gitignore - Exclude heavy models and build artifacts
 
-# Large ML Models (see MODELS_SETUP.md for setup instructions)
-/models/pixel-art-model/
-/models/SpriteStack_Model_Slim_v2/
-/models/**/*.safetensors
-/models/**/*.ckpt
-/models/**/*.pt
-/models/**/*.pth
-/models/**/*.bin
-
-# Model checkpoints (3rd party)
+# Large ML models and generated assets (see MODELS_SETUP.md)
+/models/
 *.ckpt
 *.pth
 *.pt
+*.bin
+*.safetensors
+._*
 
 # Python cache
 __pycache__/

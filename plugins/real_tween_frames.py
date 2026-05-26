@@ -16,7 +16,7 @@ from PIL import Image
 
 log = logging.getLogger(__name__)
 
-PACKAGE_DIR = Path(__file__).resolve().parents[2] / "pixel_rife_rgba_integration_package"
+PACKAGE_DIR = Path(__file__).resolve().parents[1] / "pixel_rife_rgba_integration_package"
 MODEL_DIR = PACKAGE_DIR / "model"
 WEIGHTS_PATH = MODEL_DIR / "rife_rgba_best.pth"
 
